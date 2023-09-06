@@ -1,0 +1,157 @@
+
+/* Styling for the Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #dc3545; /* Red */
+}
+
+.nav-btn {
+  font-size: x-large;
+  color: #f0f0f0; /* Light Gray */
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-btn:hover {
+  font-size: xx-large;
+  transition: 0.5s;
+  color: black;
+  cursor: pointer;
+}
+
+/* Styling for the Main section */
+.main {
+  width: 700px;
+  height: 200px;
+  margin-left: 30%;
+}
+
+/* Styling for the drink container */
+.drink-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drink1 {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  border: 1px solid #dc3545; /* Red */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c82333; /* Darker Red */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.drink2 {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  border: 1px solid #dc3545; /* Red */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #dc3545; /* Red */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.drink3 {
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  border: 1px solid #dc3545; /* Red */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ea4a5a; /* Lighter Red */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.drink-name {
+  font-size: 16px;
+}
+
+.drink-price {
+  font-size: 14px;
+}
+
+.add-btn {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  color: #dc3545; /* Red */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: green; /* Red */
+  color: white;
+}
+
+/* Styling for the Search section */
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  font-size: x-large;
+  border-radius: 20px;
+}
+
+/* Styling for the Pagination section */
+.pagination {
+  width: 540px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-btn {
+  width: 120px;
+  height: 40px;
+  background-color: #dc3545; /* Red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  background-color: black; /* Lighter Red */
+  transition: 0.5s;
+  
+}
+
+.pagination-btn:disabled {
+  background-color: grey;
+}
+
+
